@@ -18,4 +18,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/respuestas', 'Api\RespuestasController@store')-> name('api.respuestas.store'); 
 Route::get('/tiposusuario','Api\TiposUsuarioController@index')->name('api.tipousuario.index');
+Route::get('/sintomas', 'Api\SintomasController@index')->name('api.sintomas.index');
 
